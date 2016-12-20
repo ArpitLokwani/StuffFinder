@@ -14,6 +14,8 @@
 		C8A2886B1E0961B700BECA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A2886A1E0961B700BECA53 /* Assets.xcassets */; };
 		C8A2886E1E0961B700BECA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A2886C1E0961B700BECA53 /* LaunchScreen.storyboard */; };
 		C8A288791E0961B800BECA53 /* StuffFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A288781E0961B800BECA53 /* StuffFinderUITests.swift */; };
+		C8A288841E09631300BECA53 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A288831E09631300BECA53 /* StoreViewController.swift */; };
+		C8A288861E09632A00BECA53 /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A288851E09632A00BECA53 /* FinderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		C8A288741E0961B800BECA53 /* StuffFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuffFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A288781E0961B800BECA53 /* StuffFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffFinderUITests.swift; sourceTree = "<group>"; };
 		C8A2887A1E0961B800BECA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A288831E09631300BECA53 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		C8A288851E09632A00BECA53 /* FinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				C8A288601E0961B700BECA53 /* AppDelegate.swift */,
 				C8A288621E0961B700BECA53 /* ViewController.swift */,
+				C8A288831E09631300BECA53 /* StoreViewController.swift */,
+				C8A288851E09632A00BECA53 /* FinderViewController.swift */,
 				C8A288641E0961B700BECA53 /* Main.storyboard */,
 				C8A2886A1E0961B700BECA53 /* Assets.xcassets */,
 				C8A2886C1E0961B700BECA53 /* LaunchScreen.storyboard */,
@@ -204,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A288841E09631300BECA53 /* StoreViewController.swift in Sources */,
 				C8A288631E0961B700BECA53 /* ViewController.swift in Sources */,
 				C8A288611E0961B700BECA53 /* AppDelegate.swift in Sources */,
+				C8A288861E09632A00BECA53 /* FinderViewController.swift in Sources */,
 				C8A288691E0961B700BECA53 /* StuffFinder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
