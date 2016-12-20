@@ -17,13 +17,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func findMyStuffButtonPressed(_ sender: Any) {
-        let next = self.storyboard?.instantiateViewController(withIdentifier: "StoreViewController") as! StoreViewController
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "FinderViewController") as! FinderViewController
         self.navigationController?.pushViewController(next, animated: true)
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
