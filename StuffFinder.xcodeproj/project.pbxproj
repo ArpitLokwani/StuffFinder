@@ -65,6 +65,7 @@
 		C8A288541E0961B700BECA53 = {
 			isa = PBXGroup;
 			children = (
+				C8A288871E0AB91C00BECA53 /* Common */,
 				C8A2885F1E0961B700BECA53 /* StuffFinder */,
 				C8A288771E0961B800BECA53 /* StuffFinderUITests */,
 				C8A2885E1E0961B700BECA53 /* Products */,
@@ -103,6 +104,13 @@
 				C8A2887A1E0961B800BECA53 /* Info.plist */,
 			);
 			path = StuffFinderUITests;
+			sourceTree = "<group>";
+		};
+		C8A288871E0AB91C00BECA53 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +430,7 @@
 				C8A2887F1E0961B800BECA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8A288801E0961B800BECA53 /* Build configuration list for PBXNativeTarget "StuffFinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +439,7 @@
 				C8A288821E0961B800BECA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
