@@ -17,41 +17,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func findMyStuffButtonPressed(_ sender: Any) {
-       // let next = self.storyboard?.instantiateViewController(withIdentifier: "FinderViewController") as! FinderViewController
-        //self.navigationController?.pushViewController(next, animated: true)
+        
+    let next = self.storyboard?.instantiateViewController(withIdentifier: "FinderViewController") as! FinderViewController
+       self.navigationController?.pushViewController(next, animated: true)
         //1
-        let appDelegate =
-            UIApplication.shared.delegate as! AppDelegate
-        
-        let managedContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        
-        //2
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "StuffDetail")
-        
-        //3
-        do {
-           let results =
-             try managedContext.fetch(fetchRequest)
-            
-          stuffDetails = results as! [NSManagedObject]
-            
-         let stuff = stuffDetails[0]
-            
-          print(stuff.value(forKey: "name"))
-            
-           
-            // let person
-        } catch let error as NSError {
-            print("Could not fetch \(error), \(error.userInfo)")
-        }
-        
-    }
+           }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.isNavigationBarHidden = true
-        // Do any additional setup after loading the view, typically from a nib.
+        self.title = "Stuff Finder"
+        self.navigationController?.navigationBar.barTintColor = UIColor.orange
+
+     
     }
 
     override func didReceiveMemoryWarning() {

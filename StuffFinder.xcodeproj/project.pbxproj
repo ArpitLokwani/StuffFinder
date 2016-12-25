@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D35E4D91E0BB55C0029CDE0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D35E4D81E0BB55C0029CDE0 /* Helper.swift */; };
+		4D35E4DB1E0BC6070029CDE0 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D35E4DA1E0BC6070029CDE0 /* country.txt */; };
+		4D35E4DD1E0BDE050029CDE0 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D35E4DC1E0BDE050029CDE0 /* CustomSearchBar.swift */; };
+		4D35E4E01E0CFCC10029CDE0 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D35E4DE1E0CFCC10029CDE0 /* SearchTableViewCell.swift */; };
+		4D35E4E11E0CFCC10029CDE0 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D35E4DF1E0CFCC10029CDE0 /* SearchTableViewCell.xib */; };
+		4D35E4E31E0D00F00029CDE0 /* FinderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D35E4E21E0D00F00029CDE0 /* FinderDetailViewController.swift */; };
+		4D35E4E61E0D04CF0029CDE0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D35E4E51E0D04CF0029CDE0 /* AVFoundation.framework */; };
 		C8A288611E0961B700BECA53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A288601E0961B700BECA53 /* AppDelegate.swift */; };
 		C8A288631E0961B700BECA53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A288621E0961B700BECA53 /* ViewController.swift */; };
 		C8A288661E0961B700BECA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A288641E0961B700BECA53 /* Main.storyboard */; };
@@ -29,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D35E4D81E0BB55C0029CDE0 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4D35E4DA1E0BC6070029CDE0 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.txt; sourceTree = "<group>"; };
+		4D35E4DC1E0BDE050029CDE0 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		4D35E4DE1E0CFCC10029CDE0 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		4D35E4DF1E0CFCC10029CDE0 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		4D35E4E21E0D00F00029CDE0 /* FinderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinderDetailViewController.swift; path = ../FinderDetailViewController.swift; sourceTree = "<group>"; };
+		4D35E4E51E0D04CF0029CDE0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C8A2885D1E0961B700BECA53 /* StuffFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A288601E0961B700BECA53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8A288621E0961B700BECA53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D35E4E61E0D04CF0029CDE0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,13 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D35E4E41E0D04CF0029CDE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D35E4E51E0D04CF0029CDE0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C8A288541E0961B700BECA53 = {
 			isa = PBXGroup;
 			children = (
+				4D35E4DE1E0CFCC10029CDE0 /* SearchTableViewCell.swift */,
+				4D35E4DF1E0CFCC10029CDE0 /* SearchTableViewCell.xib */,
+				4D35E4DA1E0BC6070029CDE0 /* country.txt */,
 				C8A288871E0AB91C00BECA53 /* Common */,
 				C8A2885F1E0961B700BECA53 /* StuffFinder */,
 				C8A288771E0961B800BECA53 /* StuffFinderUITests */,
 				C8A2885E1E0961B700BECA53 /* Products */,
+				4D35E4E41E0D04CF0029CDE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,10 +111,12 @@
 		C8A2885F1E0961B700BECA53 /* StuffFinder */ = {
 			isa = PBXGroup;
 			children = (
+				4D35E4DC1E0BDE050029CDE0 /* CustomSearchBar.swift */,
 				C8A288601E0961B700BECA53 /* AppDelegate.swift */,
 				C8A288621E0961B700BECA53 /* ViewController.swift */,
 				C8A288831E09631300BECA53 /* StoreViewController.swift */,
 				C8A288851E09632A00BECA53 /* FinderViewController.swift */,
+				4D35E4E21E0D00F00029CDE0 /* FinderDetailViewController.swift */,
 				C8A288641E0961B700BECA53 /* Main.storyboard */,
 				C8A2886A1E0961B700BECA53 /* Assets.xcassets */,
 				C8A2886C1E0961B700BECA53 /* LaunchScreen.storyboard */,
@@ -109,6 +138,7 @@
 		C8A288871E0AB91C00BECA53 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				4D35E4D81E0BB55C0029CDE0 /* Helper.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -199,8 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A2886E1E0961B700BECA53 /* LaunchScreen.storyboard in Resources */,
+				4D35E4DB1E0BC6070029CDE0 /* country.txt in Resources */,
 				C8A2886B1E0961B700BECA53 /* Assets.xcassets in Resources */,
 				C8A288661E0961B700BECA53 /* Main.storyboard in Resources */,
+				4D35E4E11E0CFCC10029CDE0 /* SearchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,11 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D35E4DD1E0BDE050029CDE0 /* CustomSearchBar.swift in Sources */,
 				C8A288841E09631300BECA53 /* StoreViewController.swift in Sources */,
 				C8A288631E0961B700BECA53 /* ViewController.swift in Sources */,
 				C8A288611E0961B700BECA53 /* AppDelegate.swift in Sources */,
 				C8A288861E09632A00BECA53 /* FinderViewController.swift in Sources */,
+				4D35E4E01E0CFCC10029CDE0 /* SearchTableViewCell.swift in Sources */,
 				C8A288691E0961B700BECA53 /* StuffFinder.xcdatamodeld in Sources */,
+				4D35E4E31E0D00F00029CDE0 /* FinderDetailViewController.swift in Sources */,
+				4D35E4D91E0BB55C0029CDE0 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6E887G534X;
 				INFOPLIST_FILE = StuffFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dusbeen.StuffFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6E887G534X;
 				INFOPLIST_FILE = StuffFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dusbeen.StuffFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
